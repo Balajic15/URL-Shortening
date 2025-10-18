@@ -12,6 +12,11 @@ A simple, evaluation-ready URL shortener built with **Node.js** and **Express**.
 - **Redirection**: Hitting `/:shortcode` redirects to the original URL if not expired.
 - **Error Handling**: Returns proper HTTP codes and descriptive JSON for malformed input, unknown shortcode (404), expired link (410), and collisions (409).
 - **Statistics**: `/shorturls/:shortcode` returns total clicks, original URL, creation/expiry timestamps, and detailed click data with timestamp, referrer, IP, and coarse-grained location (local/private/unknown).
+- <img width="947" height="670" alt="image" src="https://github.com/user-attachments/assets/8e661a1d-8731-4e8e-9e6d-1e0b55a50219" />
+
+<img width="952" height="416" alt="image" src="https://github.com/user-attachments/assets/b60fbf58-b60b-4f83-9bc7-272d985aa829" />
+
+
 
 ## Project Structure
 ```
